@@ -1,0 +1,9 @@
+vpc_id = "vpc-0697ee0d02f85f075"
+container_port = 80
+region = "us-east-1"
+public_subnets = ["subnet-0c828201f8fac4c6f", "subnet-0a7f829128c1bbf5c"]
+service_desired_count = "2"
+environment = "dev"
+container_cpu = "256"
+container_memory = "512"
+name = "webapp"
